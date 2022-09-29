@@ -1,0 +1,95 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.main-order{
+    position: absolute;
+    width: 22em;
+    max-width: 900px;
+    height: 34em;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+
+.main-order img{
+    width: 22em;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.order-text h2, p{
+    text-align: center;
+}
+.order-text h2{
+    font-weight: 700;
+}
+.order-text p{
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    line-height: 23px;
+
+}
+
+.annual-section img{
+    width: 3em;
+}
+
+.annual-section p{
+    margin-right: 3em;
+    line-height: 22px;
+}
+.annual-section span:first-child{
+    font-weight: 700;
+}
+
+.annual-section a{
+    text-decoration: none;
+}
+
+.annual-section{
+    background-color: hsl(225, 100%, 98%);
+    margin: 1em 1.5em;
+    margin-top: 2em;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn-section{
+    text-align: center;
+    margin-top: 2em;
+    
+}
+
+.btn-section button{
+    color: white;
+    border: none;
+    padding: 0.9em 6.5em;
+    border-radius: 12px;
+    background-color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.btn-section button:hover{
+    background-color: hsl(245, 78%, 49%);
+    box-shadow: 0px 8px 10px 3px hsl(228, 100%, 82%);
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+
+.btn-section p{
+    color: grey;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 1.2em;
+}
+
